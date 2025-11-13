@@ -4,6 +4,7 @@ project:
 
 website:
   title: "My Research Notes"
+  site-url: "https://leafstar.github.io/myblog/"
   navbar:
     left:
       - text: Home
