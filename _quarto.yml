@@ -1,21 +1,23 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "myblog"
+  title: "My Research Notes"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Posts
+        href: posts/
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: cosmo
     toc: true
-
+    code-fold: true
+    math: mathjax
 
 
